@@ -104,3 +104,42 @@ nav button {
   width: 60px;
   margin-bottom: 32px;
 }
+
+/* client area */
+.client-review-content h2 {
+  color: #414040;
+}
+.client-review-content p {
+  color: #707070;
+}
+.review-card-1 h3,
+.review-card-2 h3,
+.review-card-3 h3 {
+  font-family: var(--garamond);
+}
+.review-card-1 h4,
+.review-card-2 h4,
+.review-card-3 h4 {
+  font-family: var(--poppins);
+}
+.review-card-1 {
+  background: url('../images/Rectangle-7.png'), url('../images/slider-1.jpg');
+  padding: 100px 120px;
+  border-radius: 8px;
+  width: 100%;
+  transition: all 0.4s ease-in-out 4s;
+}
+.review-card-2 {
+  background: url('../images/Rectangle-7.png'), url('../images/slider-2.jpg');
+  padding: 100px 120px;
+  border-radius: 8px;
+  width: 100%;
+  transition: all 0.4s ease-in-out 4s;
+}
+.review-card-3 {
+  background: url('../images/Rectangle-7.png'), url('../images/slider-3.jpg');
+  padding: 100px 120px;
+  border-radius: 8px;
+  width: 100%;
+  transition: all 0.4s ease-in-out 4s;
+}
