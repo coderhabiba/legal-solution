@@ -1,13 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <title>Legal Solution</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-  <header>
-    <nav></nav>
+  <header class="Container mx-auto pt-16 pb-32">
+    <nav class="flex items-center justify-center gap-5 lg:justify-between mb-[50px]">
+      <div class="">
+        <img class="w-24 xl:w-full lg:w-full md:w-full" src="./images/logo2.png" alt="">
+      </div>
+      <ul class="xl:flex lg:flex md:hidden hidden items-center gap-[30px] text-base font-normal text-left">
+        <li class="list-none"><a class="no-underline text-[#707070]" href="">Home</a></li>
+        <li class="list-none"><a class="no-underline text-[#707070]" href="">Services ></a></li>
+        <li class="list-none"><a class="no-underline text-[#707070]" href="">Cases ></a></li>
+        <li class="list-none"><a class="no-underline text-[#707070]" href="">Blog ></a></li>
+        <li class="list-none"><a class="no-underline text-[#707070]" href="">Contact Us ></a></li>
+      </ul>
+
+      <button class="border-0 py-3 px-7 lg:py-5 lg:px-10 text-white font-medium lg:font-semibold md:font-semibold xl:text-[1.125rem] lg:text-[1.125rem] md:text-base">Free Consultation</button>
+    </nav>
+
+    <div class="banner py-20 xl:py-60 lg:py-60 md:py-40 px-0 bg-no-repeat w-full text-white text-center rounded-lg">
+      <div class="banner-content w-[268px] lg:w-[668px] md:w-[500px] my-0 mx-auto">
+        <h1 class="text-white text-4xl lg:text-7xl md:text-5xl font-extrabold text-center lg:leading-[85px] md:leading-[70px]">We Provide Effective Legal Solutions</h1>
+        <p class="leading-6 text-[#e7e7e7] text-center mt-6 mb-8">There are many variations of passages of Lorem Ipsum
+          available, but the majority have suffered alteration in
+          some form,by injected humour.</p>
+        <div class="xl:flex lg:flex md:flex-col flex-col items-center justify-center gap-6 lg:w-[668px] md:w-[500px] my-0 mx-auto">
+          <input class="py-4 pl-4 text-[#a0a0a0] text-base font-normal w-full rounded-lg bg-white border-0 mb-6 lg:mb-0" type="text"
+            placeholder="Search your services">
+          <input class="rounded-lg text-white py-[13px] px-10 font-normal lg:font-semibold text-md lg:text-xl text-left border-0" type="submit" value="Search">
+        </div>
+      </div>
+    </div>
   </header>
+
+  <main>
+    <!-- practice -->
+    <section class="practice Container mb-40">
+      <div class="practice-content text-center lg:w-[668px] md:w-[660px] my-0 mx-auto font-extrabold">
+        <h2 class="text-[40px] font-extrabold mb-6 text-center">The Legal Practice Area</h2>
+        <p class="mb-16 text-base font-normal text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+          alteration in some form,
+          by injected humour.</p>
+      </div>
+
+      <div class="card-container grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
+
+        <div class="card border border-b-0 lg:border-none lg:border-b-1 md:border md:border-r-0 border-[#E7E7E7]">
+          <img class="mb-8" src="./images/business.png" alt="business">
+          <h3 class="mb-6 text-[32px] font-extrabold">Business Law</h3>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,by injected humour.</p>
+          <img src="./images/Frame.png" alt="">
+        </div>
+
+        <div class="card border-1 border-[#E7E7E7]">
+          <img class="mb-8" src="./images/criminal.png" alt="criminal">
+          <h3 class="mb-6 text-[32px] font-extrabold">Criminal Law</h3>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+            in some
+            form,
+            by injected humour.</p>
+          <img src="./images/Frame.png" alt="">
+        </div>
+
+        <div class="card border-b-1 border-x-1 lg:border-x-0 md:border-x-1 border-[#E7E7E7]">
+          <img class="mb-8" src="./images/child.png" alt="business">
+          <h3 class="mb-6 text-[32px] font-extrabold">Child Support</h3>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+            form,
+            by injected humour.</p>
+          <img src="./images/Frame.png" alt="">
+        </div>
+
+        <div class="card border-x-1 lg:border-x-0 lg:border-t-1 md:border-r-1 md:border-b-1 border-b-1 lg:border-b-0 md:border-b-1 border-[#E7E7E7]">
+          <img src="./images/education.png" alt="business">
+          <h3 class="mb-6 text-[32px] font-extrabold">Education Law</h3>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+            form,
+            by injected humour.</p>
+          <img src="./images/Frame.png" alt="">
+        </div>
+
+        <div class="card border-x-1 border-b-1 lg:border-b-0 border-[#E7E7E7]">
+          <img src="./images/divorce.png" alt="business">
+          <h3 class="mb-6 text-[32px] font-extrabold">Divorce Law</h3>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+            form,
+            by injected humour.</p>
+          <img src="./images/Frame.png" alt="">
+        </div>
+
+        <div class="card border-x-1 lg:border-r-0 border-b-1 lg:border-b-0 border-[#E7E7E7]">
+          <img src="./images/tax.png" alt="business">
+          <h3 class="mb-6 text-[32px] font-extrabold">Business Law</h3>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+            form,
+            by injected humour.</p>
+          <img src="./images/Frame.png" alt="">
+        </div>
+
+      </div>
+
+    </section><!-- practice -->
+    
+    <!-- client -->
+    <section class="client">
+     
+    </section><!-- client -->
+  </main>
+
 </body>
+
 </html>
