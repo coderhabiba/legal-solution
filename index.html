@@ -5,8 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
   <title>Legal Solution</title>
   <link rel="stylesheet" href="./css/style.css">
+
 </head>
 
 <body>
@@ -36,9 +38,9 @@
         <p class="leading-6 text-[#e7e7e7] text-center mt-6 mb-8">There are many variations of passages of Lorem Ipsum
           available, but the majority have suffered alteration in
           some form,by injected humour.</p>
-        <div
-          class="xl:flex lg:flex md:flex-col flex-col items-center justify-center gap-6 lg:w-[668px] md:w-[500px] my-0 mx-auto">
-          <input class="py-4 pl-4 text-[#a0a0a0] text-base font-normal w-full rounded-lg bg-white border-0 mb-6 lg:mb-0"
+        <div class="lg:flex md:flex items-center justify-center gap-6 lg:w-[668px] md:w-[500px] my-0 mx-auto">
+          <input
+            class="py-4 pl-4 text-[#a0a0a0] text-base font-normal w-full rounded-lg bg-white border-0 mb-6 lg:mb-0 md:mb-0"
             type="text" placeholder="Search your services">
           <input
             class="rounded-lg text-white py-[13px] px-10 font-normal lg:font-semibold text-md lg:text-xl text-left border-0"
@@ -127,7 +129,7 @@
     <!-- client -->
     <section class="client py-[120px] Container">
       <div class="client-review-content lg:w-[710px] mx-auto mb-16">
-        <h2 class="text-[40px] font-extrabold leading-[52px] text-center mb-6">What Our Client Say</h2>
+        <h2 class="heading mb-6">What Our Client Say</h2>
         <p class="text-base leading-[26px] text-center">There are many variations of passages of Lorem Ipsum available,
           but the majority have suffered alteration in some form,
           by injected humour.</p>
@@ -178,8 +180,7 @@
         </div>
 
         <div class="arrows">
-          <div onclick="left()"
-            class="left-arrow text-white text-5xl absolute left-[15%] bottom-[50%] cursor-pointer">
+          <div onclick="left()" class="left-arrow text-white text-5xl absolute left-[15%] bottom-[50%] cursor-pointer">
             < </div>
               <div onclick="right()"
                 class="right-arrow text-white text-5xl absolute right-[15%] bottom-[50%] cursor-pointer">></div>
@@ -194,10 +195,159 @@
     </section><!-- client -->
 
     <!-- quesion -->
-     <section class="quesion">
-       
-     </section>
-    <!-- end quesition -->
+    <section class="quesion-container my-[120px] mx-auto Container">
+      <div class="quesion-content text-center">
+        <h2 class="heading mb-6">Frequently Asked Any Questions</h2>
+        <p class="description text-center mx-auto mb-10">There are many variations of passages of Lorem Ipsum available,
+          but the majority
+          have suffered alteration in some form,
+          by injected humour.</p>
+      </div>
+
+      <div class="quesions-area lg:flex items-center justify-center gap-96">
+
+        <div class="quesions lg:w-1/2">
+          <div id="accordion-collapse" data-accordion="collapse">
+
+            <h2 id="accordion-collapse-heading-1">
+              <button type="button"
+                class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                data-accordion-target="#accordion-collapse-body-1" aria-expanded="true"
+                aria-controls="accordion-collapse-body-1">
+                <span>1. Are application fee waivers available?</span>
+                <div>+</div>
+              </button>
+            </h2>
+            <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
+              <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                <p class="mb-2 text-gray-500 dark:text-gray-400">FYes, **application fee waivers are available** in many
+                  cases—especially for students, low-income applicants, or those facing financial hardship. Check the
+                  institution’s website or contact their office to request one.
+                </p>
+              </div>
+            </div>
+
+            <h2 id="accordion-collapse-heading-2">
+              <button type="button"
+                class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                data-accordion-target="#accordion-collapse-body-2" aria-expanded="false"
+                aria-controls="accordion-collapse-body-2">
+                <span>2. Who qualifies for an application fee waiver?</span>
+                <div>+</div>
+              </button>
+            </h2>
+            <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
+              <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                <p class="mb-2 text-gray-500 dark:text-gray-400">Fee waivers are usually available to applicants with
+                  financial hardship, low-income backgrounds, students, military members, or those applying through
+                  platforms like Common App or NACAC.</p>
+              </div>
+            </div>
+
+            <h2 id="accordion-collapse-heading-3">
+              <button type="button"
+                class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                data-accordion-target="#accordion-collapse-body-3" aria-expanded="false"
+                aria-controls="accordion-collapse-body-3">
+                <span>3. How can I request a fee waiver?</span>
+                <div>+</div>
+              </button>
+            </h2>
+            <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
+              <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                <p class="mb-2 text-gray-500 dark:text-gray-400">You can request a fee waiver through the application
+                  form, by submitting a waiver form (e.g., NACAC, College Board), or
+                  by contacting the admissions or application office directly.</p>
+              </div>
+            </div>
+
+            <h2 id="accordion-collapse-heading-4">
+              <button type="button"
+                class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                data-accordion-target="#accordion-collapse-body-4" aria-expanded="false"
+                aria-controls="accordion-collapse-body-3">
+                <span>4. Do all institutions offer fee waivers?</span>
+                <div>+</div>
+              </button>
+            </h2>
+            <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4">
+              <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                <p class="mb-2 text-gray-500 dark:text-gray-400">No, not all institutions offer them. It's best to check
+                  the official website or contact the office where you’re applying
+                  to see if they provide fee waivers and what the eligibility requirements are.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="quesion-img lg:w-1/2 lg:mt-0 mt-10">
+          <img src="./images/faq.png" alt="">
+        </div>
+      </div>
+
+    </section><!-- end quesition -->
+
+    <!-- contact us -->
+    <section class="contact Container py-[120px]">
+
+      <div class="contact-container text-center mx-auto mb-16">
+        <h2 class="heading mb-6 ">Contact With Us</h2>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+          some form,
+          by injected humour.</p>
+      </div>
+
+      <div class="all-contact flex-col lg:flex lg:flex-row md:flex md:flex-row items-center gap-[30px]">
+
+        <div class="info grid grid-cols-2 lg:w-[calc(50%-30px)]">
+
+          <div
+            class="box-1 text-center p-6 lg:pt-[70px] lg:pb-16 lg:px-[60px] bg-[#F3F3F3] border-b-1 border-r-1 border-[#CFCFCF]">
+            <img class="mx-auto" src="./images/location.png" alt="">
+            <h2 class="text-2xl font-extrabold mt-5">Address</h2>
+            <p class="text-base text-center mt-4">A108 Adam Street</p>
+            <p class="text-base text-center mt-4">New York, NY 535022</p>
+          </div>
+
+          <div class="box-2 p-6 lg:pt-[70px] lg:pb-16 lg:px-[60px] bg-[#F3F3F3] border-b-1 border-[#CFCFCF]">
+            <img class="mx-auto" src="./images/call.png" alt="">
+            <h2 class="text-center text-2xl font-extrabold mt-5">Call Us</h2>
+            <p class="text-base text-center mt-4">+88 01750 00 00 00</p>
+            <p class="text-base text-center mt-4">+88 01750 00 00 00</p>
+          </div>
+
+          <div class="box-3 p-6 lg:pt-[70px] lg:pb-16 lg:px-[60px] bg-[#F3F3F3] border-r-1 border-[#CFCFCF]">
+            <img class="mx-auto" src="./images/email.png" alt="">
+            <h2 class="text-center text-2xl font-extrabold mt-5">Email Us</h2>
+            <p class="text-base text-center mt-4">info@gmail.com</p>
+            <p class="text-base text-center mt-4">info@gmail.com</p>
+          </div>
+
+          <div class="box-4 p-6 lg:pt-[70px] lg:pb-16 lg:px-[60px] bg-[#F3F3F3]">
+            <img class="mx-auto" src="./images/time.png" alt="">
+            <h2 class="text-center text-2xl font-extrabold mt-5">Working Hours</h2>
+            <p class="text-base text-center mt-4">Mon-Fri: 9AM to 5PM</p>
+            <p class="text-base text-center mt-4">Sunday: 9AM to 1 PM</p>
+          </div>
+
+        </div>
+
+        <div class="form mt-6 lg:mt-0 lg:w-1/2">
+          <input class="w-full bg-[#F3F3F3] rounded-lg mb-[30px] py-5 pl-5" type="text" placeholder="Your Name">
+          <input class="w-full bg-[#F3F3F3] rounded-lg mb-[30px] py-5 pl-5" type="email" name="" id=""
+            placeholder="Your Email">
+          <input class="w-full bg-[#F3F3F3] rounded-lg mb-[30px] py-5 pl-5" type="text" placeholder="Subject">
+          <textarea class="w-full h-40 bg-[#F3F3F3] rounded-lg mb-[30px] py-5 pl-5" name="" id=""
+            placeholder="Your Message"></textarea>
+          <input class="w-full rounded-lg bg-[#B68C5A] py-5 text-xl font-semibold leading-[30px] text-white"
+            type="submit" value="Send Message">
+        </div>
+
+      </div>
+    </section>
+    <!-- end contact us -->
   </main>
 
   <script>
@@ -232,8 +382,7 @@
     // Show the first slide initially
     showSlide(current);
   </script>
-
-
+  <script src="https://unpkg.com/flowbite@1.6.5/dist/flowbite.min.js"></script>
 </body>
 
 </html>
