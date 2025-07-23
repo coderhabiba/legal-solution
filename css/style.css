@@ -8,6 +8,12 @@
   --poppins: 'Poppins', sans-serif;
   --primary-color: #b68c5a;
 }
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
 .Container {
   width: 90%;
   margin: 0 auto;
@@ -176,4 +182,34 @@ nav button {
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0%;
+}
+
+/* footer */
+footer .logo-area p {
+  color: rgb(207, 207, 207);
+  font-family: var(--poppins);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.links h2,.contact-now h2,.subscribe h2  {
+  font-family: var(--garamond);
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 31px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 46px;
+}
+.links ul li a, .contact-now p,.subscribe p {
+  color: rgb(207, 207, 207);
+  font-family: var(--poppins);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
 }
